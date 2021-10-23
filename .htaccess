@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^oferta/(.*)$ /offer.php?id=$1 [R=301,NC,L]
